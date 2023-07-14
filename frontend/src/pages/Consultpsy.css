@@ -1,0 +1,145 @@
+.conssect {
+  min-height: 100vh;
+  min-width:fit-content;
+  display: flex;
+  flex-direction: column;
+}
+
+.psydata {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2vh;
+}
+
+.filterAndSort {
+  margin-top: 2vh;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.905);
+  padding: 2vmax;
+}
+.pdata span{
+  margin: 2vh;
+  display: flex;
+  flex-flow: row wrap;
+}
+.searchbox {
+  border: 2px solid black;
+  margin: 0.5vw;
+  padding: 0.5vw;
+  border-radius: 36px;
+  font-size: 1vmax;
+}
+
+.searchbtn {
+  cursor: pointer;
+  font-size: 1vmax;
+  padding: 0.8vh;
+  color: #fff;
+  background: linear-gradient(90deg, rgb(43, 120, 221), rgb(0, 100, 200));
+  border-radius: 5px;
+}
+
+.searchbtn:active {
+  transform: scale(0.8);
+}
+
+.filtheaders {
+  margin: 0.5vw;
+  margin-top: 1.4vw;
+}
+span .filtheaders{
+    font-weight: 600;
+}
+
+.filtdata {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filtinfo {
+  margin: 0.5vw;
+  font-weight: 450;
+}
+
+input[type="checkbox"] {
+  cursor: pointer;
+}
+
+input[type="radio"] {
+  cursor: pointer;
+  margin-right: 0;
+}
+
+.psyinfowrapper {
+  margin-top: 2vh;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.905);
+  padding: 2vmax;
+  margin-left: 1.5vmax;
+  margin-right: 1.5vmax;
+}
+
+.psyinfo {
+  margin: 2vh;
+  margin-right: 5vh;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.905);
+  padding: 2vmax;
+  display: flex;
+}
+
+.psyimg {
+  max-width: 12%;
+  margin-right: 2%;
+  border-radius: 15%;
+}
+.fsresp{
+  display: none;
+}
+.pdata{
+  margin-right: 1vh;
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr;
+}
+@media only screen and (max-width:1000px)
+{
+  .psyimg{
+    max-width: 30%;
+  }
+  
+  .pdata{
+    margin-right: 30vh;
+  }
+  .searchbox{
+    font-size: 3.5vmax;
+    width: 33vmax;
+    height: 9vmax;
+  }
+  .filtheaders{
+    margin-top: 1.5vmax;
+  }
+  .filtinfo{
+    font-weight: 380;
+  }
+  input[type="checkbox"] {
+    max-width: 2vmax;
+  }
+  input[type="radio"] {
+    cursor: pointer;
+    margin-right: 0;
+    width: 2vmax;
+  }
+  .psydata{
+    flex-direction: column;
+  }
+  .filterAndSort{
+    display: grid;
+    grid-template-columns:auto auto ;
+  }
+  .filtdata{
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+  }
+}

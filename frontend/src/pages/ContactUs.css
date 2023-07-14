@@ -1,0 +1,148 @@
+.container
+{
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+
+.ctsection {
+    background-color: #5290eeee;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 55px;
+    margin-bottom: 83px;
+  }
+  
+.contact-box
+{
+    background-color:white;
+    display: flex;
+}
+.contact-left
+{
+    padding: 40px 60px;
+}
+.contact-right
+{
+    flex-basis: 40%;
+    padding: 40px;
+    background: black;
+    color: #fff;
+}
+.input-row
+{
+display: flex;
+justify-content: space-between;
+}
+.input-row .input-group
+{
+    flex-basis: 45%;
+}
+.cuinput
+{
+    width: 100%;
+    border:none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+textarea
+{
+    width: 100%;
+    border:1px solid #ccc ;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.culabel
+{
+    margin-bottom: 6px;
+    display: block;
+    color: #2c07fcad;
+    margin-top: 2vh;
+}
+.centrewrapper{
+    display: flex;
+    justify-content: center;
+}
+.ctbtn
+{
+    background: #5290eeee;
+    width: 60%;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgba(28,0,181,0.3);
+    cursor: pointer;
+}
+.ctbtn:hover{
+    transform: scale(1.1);
+}
+.contact-left h3
+{
+    color: #2903ffce;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.contact-right h3
+{
+    
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+tr td:first-child
+{
+    padding-right: 20px;
+
+}
+tr td{
+    padding-top: 20px;
+}
+
+.previous {
+    background-color: #f1f1f1;
+    color:  rgb(0, 132, 255);; 
+  }
+  @media only screen and (max-width:800px)
+  {
+    .container{
+        width: auto;
+        margin: auto;
+    }
+.input-row{
+    flex-direction: column;
+}
+.contact-box
+{
+    flex-flow: row wrap;
+}
+.contact-right
+{
+    flex-basis: 88%;
+}
+@media only screen and (max-width:320px)
+{
+    .contact-right
+{
+    display: block;
+    width: 2px;
+}
+table{
+    font-size: 11px;
+}
+}
+
+  }

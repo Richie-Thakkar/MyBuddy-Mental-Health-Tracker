@@ -1,0 +1,267 @@
+.homeWrapper {
+    background-color:white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .outer {
+    background-color: #477be4;
+    min-height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .inner1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .logoBlock {
+    flex: 1;
+    display: flex;
+    align-items: center;
+  }
+  a{
+    text-decoration: none;
+  }
+  .logo {
+    color: white;
+    margin-left: 3vw;
+  }
+  
+  .navBlock {
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .entryMessage{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 0px;
+    min-height: 593px;
+    background-image: url("https://cdn.builder.io/api/v1/image/assets%2F8f355b298ee34d67a83efdd69982f6d8%2F2896d2c2954144ccb750086ad7016b26?width=2000");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  
+  .navBlock ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .entryCnt{
+    min-height: 100vh;
+    align-self: stretch;
+    flex-grow: 1;
+    box-sizing: border-box;
+    max-width: 1144px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .desc{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    margin-top: 24px;
+    line-height: 35px;
+    height: auto;
+  }
+  .quote{
+    font-size: 30px;
+    padding: 50px;
+    font-style: italic;
+    margin: 15px;
+  }
+  .entryHeader{
+    color: white;
+  }
+  .btdiv {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    margin-top: 25px;
+  }
+  
+  .startButton {
+    color: white;
+    background: linear-gradient(#477be4, #084edc);
+    width: 200px;
+    height: 38px;
+    border-radius: 18px;
+    font-size: 17px;
+    cursor: pointer;
+    border: none;
+  }
+  .startButton:hover{
+    transform: scale(1.1);
+  }
+  
+  .innerDiv{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    margin-top: 25vh;
+    width: 65%;
+    margin-right: auto;
+    max-width: 736px;
+    margin-bottom: auto;
+  }
+  .entryWrapper{
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    line-height: 5vw;
+    height: auto;
+    font-size: 56px;
+    font-weight: 500;
+  }
+  .navBlock li {
+    margin-left: 20px;
+    color: white;
+    font-weight: bold;
+  }
+  .titletext{
+    color: white;
+  }
+  .menuToggle {
+    cursor: pointer;
+    display: none;
+    padding: 10px;
+  }
+  
+  .menuToggle .hamburger {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0;
+    transition: transform 0.3s;
+  }
+  
+  .open .hamburger:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  
+  .open .hamburger:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .open .hamburger:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  .footer {
+    background-color: #477be4;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0;
+    margin-top: 2.5vh;
+  }
+  .infowrapper {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .info {
+    border: 4px solid rgb(100, 129, 198);
+    margin-bottom: 50px;
+    max-width: 270px;
+    padding: 10px;
+  }
+  .psybtn{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background: transparent;
+    font-size: 1.1vmax;
+    padding: 5px;
+  }
+  .psybtn:hover{
+    cursor: pointer;
+    background: linear-gradient(90deg,rgb(159, 206, 230),rgb(45, 121, 235));
+  }
+  .infoimg {
+    width: 100%;
+  }
+  
+  .info p {
+    margin-top: 10px;
+  }
+  .info a{
+    color: rgb(127, 32, 190);
+    font-variant: small-caps;
+  }
+  @media screen and (max-width: 768px) {
+    .outer {
+      padding: 0 10px;
+    }
+
+    .entryHeader{
+      color: white;
+      font-size: 6vw;
+    }
+    .desc{
+      line-height: 7vw;
+    }
+    .logo {
+      height: 50px;
+      margin: 2px;
+    }
+  
+    .navBlock {
+      flex: 1;
+      justify-content: flex-start;
+      overflow: hidden;
+      max-height: 0;
+      transition: max-height 0.3s ease-out;
+    }
+
+    .entryMessage{
+      background-position: right;
+    }
+  
+    .navBlock.open {
+      max-height: 300px; 
+      transition: max-height 0.3s ease-in;
+    }
+  
+    .navBlock ul {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navBlock li {
+      margin: 10px 0;
+    }
+  
+    .menuToggle {
+      display: flex;
+      align-items: center;
+    }
+  }
+  

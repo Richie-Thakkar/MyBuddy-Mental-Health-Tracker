@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+.abtdiv {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+  
+.about-section
+{
+    background: url('https://www.science.org/do/10.1126/science.caredit.aav6903/abs/worldmentalhealthday_16x9.jpg') no-repeat left;
+    background-size: 55%;
+    background-color:black;
+    overflow: hidden;
+    padding: 150px;
+}
+.inner-container
+{
+    width: 55%;
+    float: right;
+    background-color: black;
+    padding: 50px;
+}
+
+.inner-container h1
+{
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 1000;
+    color: rgb(0, 132, 255);
+   
+}
+
+.text
+{
+    font-size: 15px;
+    color: #ffffff;
+    line-height: 20px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.previous {
+  background-color:rgb(0, 132, 255);
+  color:  white;
+}
+
+
+.round {
+  border-radius: 50%;
+}
+@media only screen and (max-width:700px)
+{
+    .about-section
+    {
+      margin: 0;
+    background: none; 
+    padding: 0;  
+    }
+    .inner-container
+    {
+        float: none;
+        width: 100%;
+    }
+}

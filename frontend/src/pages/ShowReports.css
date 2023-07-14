@@ -1,0 +1,35 @@
+.rpsect{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.reports{
+    margin-top: 2vh;
+    margin-left: 7vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+.report{
+    margin-top: 2vmax;
+    margin-bottom: 2.5vmax;
+    max-width: 60%;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.905);
+    padding: 2vmax;
+}
+.rpheader{
+    font-weight: 600;
+}
+.norep{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.905);
+    padding: 12vmax;
+}
+@media only screen and (max-width:1000px)
+{
+    .report{
+        max-width: 100%;
+        font-size: 1.8vmax;
+    }
+}

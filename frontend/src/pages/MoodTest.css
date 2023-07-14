@@ -1,0 +1,94 @@
+.mtheading{
+    font-weight: 700;
+    display: table;
+    margin-top: 2.5vw;
+    margin-left: 3vw;
+    font-size: 2vmax;
+}
+.mtsubheading{
+    font-weight: 600;
+    display: table;
+    margin-top: 0.5vw;
+    margin-left: 3vw;
+    font-size: 1.2vmax;
+}
+.mtestsect{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.upsect{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 2vmax;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.mtvideo{
+display: flex;
+align-items: center;
+}
+.mtcanvas{
+position: absolute;
+}
+.quiz {
+    max-width: 65%;
+    margin: auto;
+    margin-top: 2vh;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.905);
+    padding: 2rem;
+  }  
+  .srqdiv {
+    margin: 1vw;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .srqques {
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    margin-top: 1.5vh;
+    margin-right: 2vw;
+  }
+  
+  .options {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .qlabel {
+    font-size: 1.1rem;
+    margin-bottom: 0;
+  }
+  
+  input[type="radio"] {
+    margin-right: 0.5rem;
+    cursor: pointer;
+  }
+  
+  @media only screen and (max-width:1000px)
+  {
+.mtsubheading{
+  font-size: 2vmax;
+  margin-top: 0vh;
+}
+.mtheading{
+  font-size: 4vmax;
+}
+.quiz{
+  max-width: 90%;
+  margin-bottom: 1.5vh;
+}
+.srqdiv{
+  flex-direction: column;
+}
+.srqques{
+  margin-top: 3vh;
+}
+  }
