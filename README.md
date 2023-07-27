@@ -44,19 +44,22 @@ Join us on this empowering journey towards mental well-being. Together, let's de
 ![image](https://github.com/Richie-Thakkar/MyBuddy-Mental-Health-Tracker/assets/91325143/9b4d42da-13f8-4e57-8d6d-a7a3e2d65af8)
 
 **Anxiety and PTSD Test**
+![image](https://github.com/Richie-Thakkar/MyBuddy-Mental-Health-Tracker/assets/91325143/c05e52b0-dfa3-4e08-9cc6-2a2d1fa797af)
 
 **Report Generation**
+![image](https://github.com/Richie-Thakkar/MyBuddy-Mental-Health-Tracker/assets/91325143/fde4fffc-7cfe-467c-8b94-aa80d37c7f45)
 
 **Psychiatrist Consultation**
-
+![image](https://github.com/Richie-Thakkar/MyBuddy-Mental-Health-Tracker/assets/91325143/6b00df0f-0709-4351-b3ed-aaafa3f3bb89)
 
 **Stress Buster Tasks**
+![image](https://github.com/Richie-Thakkar/MyBuddy-Mental-Health-Tracker/assets/91325143/0b1293b4-5eeb-416c-aa43-84a55cb8d8b3)
 
 **About Us**
+![image](https://github.com/Richie-Thakkar/MyBuddy-Mental-Health-Tracker/assets/91325143/102c1b84-f43a-4ff7-9b2e-28e0916c48e2)
 
 **Contact Us**
-![Uploading image.png…]()
-
+![image](https://github.com/Richie-Thakkar/MyBuddy-Mental-Health-Tracker/assets/91325143/8fa796d4-a137-4830-81a2-e57ab3d60cf0)
 
 ### Design & Implementation Constraints
 
@@ -64,7 +67,7 @@ Join us on this empowering journey towards mental well-being. Together, let's de
 The platform currently does not verify the authenticity of the psychiatrist data   
 
 2. Data:
-   The data of the pyschiatrists is fake data generated using [Mockaroo](https://www.mockaroo.com/) to be legally compliant with The Information Technology Act,  2000 (IT Act) and Indian Contract Act, 1872
+   The data of the pyschiatrists is fake data generated using [Mockaroo](https://www.mockaroo.com/) to be legally compliant.
 
 
 
