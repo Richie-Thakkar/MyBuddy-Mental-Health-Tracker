@@ -23,6 +23,40 @@ Join us on this empowering journey towards mental well-being. Together, let's de
 - [Hydra AI](https://rapidapi.com/alessandro.lamberti98/api/hydra-ai)
 
 ### Demo
+**Login**
+![image](https://github.com/Richie-Thakkar/MyBuddy-Mental-Health-Tracker/assets/91325143/795651dd-c29e-4e0b-9ff2-99d02f296f29)
+
+**Register**
+![image](https://github.com/Richie-Thakkar/MyBuddy-Mental-Health-Tracker/assets/91325143/7a851879-0ff7-4473-bbb3-03efbf3e5bb0)
+
+**Home**
+![image](https://github.com/Richie-Thakkar/MyBuddy-Mental-Health-Tracker/assets/91325143/dc746694-6d67-4e3e-901d-81916ec5c651)
+
+**Assesment**
+
+**Mood Test**
+![image](https://github.com/Richie-Thakkar/MyBuddy-Mental-Health-Tracker/assets/91325143/8574f9e1-0ecc-4aab-a070-797df5677397)
+
+**General Neurotic Disorder Test**
+![image](https://github.com/Richie-Thakkar/MyBuddy-Mental-Health-Tracker/assets/91325143/3d5a745d-1583-40af-b860-35580f06e163)
+
+**Depression Test**
+![image](https://github.com/Richie-Thakkar/MyBuddy-Mental-Health-Tracker/assets/91325143/9b4d42da-13f8-4e57-8d6d-a7a3e2d65af8)
+
+**Anxiety and PTSD Test**
+
+**Report Generation**
+
+**Psychiatrist Consultation**
+
+
+**Stress Buster Tasks**
+
+**About Us**
+
+**Contact Us**
+![Uploading image.png…]()
+
 
 ### Design & Implementation Constraints
 
