@@ -113,10 +113,11 @@ if(email!==undefined)
     .then((respData) => {
 if(respData.status==='found')
 {
-  sessionStorage.setItem("token","alskmdalndlkasdn6546546546546543213213");
+  
   let otpcheck=prompt("Enter the OTP sent to your registered Email Address");
   if(otpcheck===respData.otp)
   {
+    props.setToken("JustADummyCookieToByPAss");
     sessionStorage.setItem("email",email);
     navigate("/user/ForgotPassword");
   }

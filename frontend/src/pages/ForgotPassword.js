@@ -1,8 +1,10 @@
 import "./ForgotPassword.css";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
+import UseToken from "../components/UseToken";
 function ForgotPassword()
 {
+    const{removeToken}=UseToken();
     const [credentials, setCredentials] = useState({
         password: '',
         confirmPassword: '',
@@ -39,6 +41,7 @@ function ForgotPassword()
                         sessionStorage.removeItem('email');
                         sessionStorage.removeItem('token'); 
                         alert("Password Updated Succesfully");
+                        removeToken();
                         navigate("/");
                     }
                     else alert("Password Update Failed! Please try again");
