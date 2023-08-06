@@ -23,6 +23,43 @@ Join us on this empowering journey towards mental well-being. Together, let's de
 - [Hydra AI](https://rapidapi.com/alessandro.lamberti98/api/hydra-ai)
 
 ### Demo
+**Login**
+![image](https://github.com/Richie-Thakkar/MyBuddy-Mental-Health-Tracker/assets/91325143/795651dd-c29e-4e0b-9ff2-99d02f296f29)
+
+**Register**
+![image](https://github.com/Richie-Thakkar/MyBuddy-Mental-Health-Tracker/assets/91325143/7a851879-0ff7-4473-bbb3-03efbf3e5bb0)
+
+**Home**
+![image](https://github.com/Richie-Thakkar/MyBuddy-Mental-Health-Tracker/assets/91325143/dc746694-6d67-4e3e-901d-81916ec5c651)
+
+**Assesment**
+
+**Mood Test**
+![image](https://github.com/Richie-Thakkar/MyBuddy-Mental-Health-Tracker/assets/91325143/8574f9e1-0ecc-4aab-a070-797df5677397)
+
+**General Neurotic Disorder Test**
+![image](https://github.com/Richie-Thakkar/MyBuddy-Mental-Health-Tracker/assets/91325143/3d5a745d-1583-40af-b860-35580f06e163)
+
+**Depression Test**
+![image](https://github.com/Richie-Thakkar/MyBuddy-Mental-Health-Tracker/assets/91325143/9b4d42da-13f8-4e57-8d6d-a7a3e2d65af8)
+
+**Anxiety and PTSD Test**
+![image](https://github.com/Richie-Thakkar/MyBuddy-Mental-Health-Tracker/assets/91325143/c05e52b0-dfa3-4e08-9cc6-2a2d1fa797af)
+
+**Report Generation**
+![image](https://github.com/Richie-Thakkar/MyBuddy-Mental-Health-Tracker/assets/91325143/fde4fffc-7cfe-467c-8b94-aa80d37c7f45)
+
+**Psychiatrist Consultation**
+![image](https://github.com/Richie-Thakkar/MyBuddy-Mental-Health-Tracker/assets/91325143/6b00df0f-0709-4351-b3ed-aaafa3f3bb89)
+
+**Stress Buster Tasks**
+![image](https://github.com/Richie-Thakkar/MyBuddy-Mental-Health-Tracker/assets/91325143/0b1293b4-5eeb-416c-aa43-84a55cb8d8b3)
+
+**About Us**
+![image](https://github.com/Richie-Thakkar/MyBuddy-Mental-Health-Tracker/assets/91325143/102c1b84-f43a-4ff7-9b2e-28e0916c48e2)
+
+**Contact Us**
+![image](https://github.com/Richie-Thakkar/MyBuddy-Mental-Health-Tracker/assets/91325143/8fa796d4-a137-4830-81a2-e57ab3d60cf0)
 
 ### Design & Implementation Constraints
 
@@ -30,7 +67,7 @@ Join us on this empowering journey towards mental well-being. Together, let's de
 The platform currently does not verify the authenticity of the psychiatrist data   
 
 2. Data:
-   The data of the pyschiatrists is fake data generated using [Mockaroo](https://www.mockaroo.com/) to be legally compliant with The Information Technology Act,  2000 (IT Act) and Indian Contract Act, 1872
+   The data of the pyschiatrists is fake data generated using [Mockaroo](https://www.mockaroo.com/) to be legally compliant.
 
 
 
