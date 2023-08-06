@@ -44,17 +44,17 @@ const{token}=UseToken();
               <br />
               <span className="rpheader">Probable Psychological Disorder Diagnosed?</span>
               <br />
-              <span>{report[3] > 0 ? "Yes" : "No"}</span> 
+              <span>{report[3] > 7 ? "Yes" : "No"}</span> 
               <br />
               <br />
               <span className="rpheader">Probable Depression Diagnosed?</span>
               <br />
-              <span>{report[4] > 0 ? "Yes" : "No"}</span> 
+              <span>{report[4] > 4 ? "Yes" : "No"}</span> 
               <br />
               <br />
               <span className="rpheader">Probable Generalized Anxiety Disorder Diagnosed?</span>
               <br />
-              <span>{report[5] > 0 ? "Yes" : "No"}</span> 
+              <span>{report[5] > 4 ? "Yes" : "No"}</span> 
               <br />
               <br />
             </div>
